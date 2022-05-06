@@ -2,32 +2,42 @@
 
 exports[`HomePage Container Snap Test render() renders the component 1`] = `
 <div
-  className="home-page safe-area"
+  className="home-page"
 >
   <div
-    className="container-fluid"
+    className="head-bar-comp"
   >
     <div
-      className="row"
+      className="col-head-bar insta-logo"
     >
-      <div
-        className="col-lg-12"
-      >
-        <img
-          alt="react-logo"
-          className="rotate"
-          src="react.svg"
-        />
-        <h1>
-          React Boilerplate
-        </h1>
-        <p>
-          Project Template with the latest react hook, simple clean and no vulnerability package
-        </p>
-        <small>
-          React Template by Thomi Jasir
-        </small>
-      </div>
+      <img
+        alt="Intagram Logo Text"
+        src="instagram-text.jpg"
+      />
+    </div>
+    <div
+      className="col-head-bar head-icon"
+    >
+      <img
+        alt="Intagram Logo Text"
+        src="plus-icon.jpg"
+      />
+    </div>
+    <div
+      className="col-head-bar head-icon"
+    >
+      <img
+        alt="Intagram Logo Text"
+        src="heart-icon.jpg"
+      />
+    </div>
+    <div
+      className="col-head-bar head-icon"
+    >
+      <img
+        alt="Intagram Logo Text"
+        src="comment-icon.jpg"
+      />
     </div>
   </div>
 </div>

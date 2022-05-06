@@ -21,10 +21,10 @@ const HeadBar: FC<IHeadBarProps> = () => {
         <img src={PLUS_ICON} alt="Intagram Logo Text" />
       </div>
       <div className="col-head-bar head-icon">
-        <img src={COMMENT_ICON} alt="Intagram Logo Text" />
+        <img src={HEART_ICON} alt="Intagram Logo Text" />
       </div>
       <div className="col-head-bar head-icon">
-        <img src={HEART_ICON} alt="Intagram Logo Text" />
+        <img src={COMMENT_ICON} alt="Intagram Logo Text" />
       </div>
     </div>
   );
