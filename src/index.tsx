@@ -14,11 +14,13 @@ const App: FC = () => {
   const [appReady] = useState<boolean>(true);
   const context = useContext(AppContext);
 
-  // useEffect(() => {
-  // * IT WILL USE IF APP REQUIRED FETCH DATA BEFORE RENDER CONTAINER
-  // ? FOR SOME CASE THAT APP NEED TOKEN BEFORE RENDER
-  // ! setAppReady(true);
-  // }, []);
+  React.useEffect(() => {
+    // * IT WILL USE IF APP REQUIRED FETCH DATA BEFORE RENDER CONTAINER
+    // ? FOR SOME CASE THAT APP NEED TOKEN BEFORE RENDER
+    setTimeout(() => {
+      context.setLoading(false, '');
+    }, 1000);
+  }, []);
 
   // * MEMOIZE ROUTER CAN HELP INCREASE INDEX PERFORMANCE APP
   const renderRouter = useMemo(

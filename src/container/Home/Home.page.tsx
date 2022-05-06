@@ -4,6 +4,7 @@ import { TITLE_HOME_PAGE } from '../../constants';
 import reactLogo from '../../assets/images/react.svg';
 import './Home.scss';
 import HeadBar from '../../components/HeadBar/HeadBar';
+import StoriesNavComp from '../../components/StoriesNav/StoriesNav.comp';
 
 export interface IProps {}
 
@@ -18,7 +19,12 @@ const Home: FC<IProps> = () => {
 
   return (
     <div className="home-page">
-      <HeadBar />
+      <div className="nav-head">
+        <HeadBar />
+      </div>
+      <div className="nav-stories">
+        <StoriesNavComp />
+      </div>
     </div>
   );
 };

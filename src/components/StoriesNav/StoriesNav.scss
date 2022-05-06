@@ -1,0 +1,39 @@
+@import '../../assets/style/colors';
+@import '../../assets//style/var';
+.stories-nav-comp {
+  // border: 1px solid #000;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  padding: 6px 0 6px 8px;
+  overflow: auto;
+  box-sizing: border-box;
+  .story-item {
+    flex: 0 0 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .story-col {
+      width: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      &:first-child {
+        border-radius: 50%;
+      }
+      &:last-child {
+        height: 22px;
+        font-size: 12px;
+      }
+      img {
+        border-radius: 50%;
+        width: 100%;
+        object-fit: cover;
+        border: 1px solid #000;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

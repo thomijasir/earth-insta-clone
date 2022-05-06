@@ -5,39 +5,170 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
   className="home-page"
 >
   <div
-    className="head-bar-comp"
+    className="nav-head"
   >
     <div
-      className="col-head-bar insta-logo"
+      className="head-bar-comp"
     >
-      <img
-        alt="Intagram Logo Text"
-        src="instagram-text.jpg"
-      />
+      <div
+        className="col-head-bar insta-logo-text"
+      >
+        <img
+          alt="Intagram Logo Text"
+          src="instagram-text.jpg"
+        />
+      </div>
+      <div
+        className="col-head-bar head-icon"
+      >
+        <img
+          alt="Intagram Logo Text"
+          src="plus-icon.jpg"
+        />
+      </div>
+      <div
+        className="col-head-bar head-icon"
+      >
+        <img
+          alt="Intagram Logo Text"
+          src="heart-icon.jpg"
+        />
+      </div>
+      <div
+        className="col-head-bar head-icon"
+      >
+        <img
+          alt="Intagram Logo Text"
+          src="comment-icon.jpg"
+        />
+      </div>
     </div>
+  </div>
+  <div
+    className="nav-stories"
+  >
     <div
-      className="col-head-bar head-icon"
+      className="stories-nav-comp"
     >
-      <img
-        alt="Intagram Logo Text"
-        src="plus-icon.jpg"
-      />
-    </div>
-    <div
-      className="col-head-bar head-icon"
-    >
-      <img
-        alt="Intagram Logo Text"
-        src="heart-icon.jpg"
-      />
-    </div>
-    <div
-      className="col-head-bar head-icon"
-    >
-      <img
-        alt="Intagram Logo Text"
-        src="comment-icon.jpg"
-      />
+      <div
+        className="story-item"
+      >
+        <div
+          className="story-col"
+        >
+          <img
+            alt="story of thomijasir"
+            src="https://picsum.photos/seed/picsum/100/100"
+          />
+        </div>
+        <div
+          className="story-col"
+        >
+          thomijasir
+        </div>
+      </div>
+      <div
+        className="story-item"
+      >
+        <div
+          className="story-col"
+        >
+          <img
+            alt="story of galuutama"
+            src="https://picsum.photos/seed/picsum/100/100"
+          />
+        </div>
+        <div
+          className="story-col"
+        >
+          galuutama
+        </div>
+      </div>
+      <div
+        className="story-item"
+      >
+        <div
+          className="story-col"
+        >
+          <img
+            alt="story of susantowijayanto"
+            src="https://picsum.photos/seed/picsum/100/100"
+          />
+        </div>
+        <div
+          className="story-col"
+        >
+          susantowijayanto
+        </div>
+      </div>
+      <div
+        className="story-item"
+      >
+        <div
+          className="story-col"
+        >
+          <img
+            alt="story of larasatibudiono"
+            src="https://picsum.photos/seed/picsum/100/100"
+          />
+        </div>
+        <div
+          className="story-col"
+        >
+          larasatibudiono
+        </div>
+      </div>
+      <div
+        className="story-item"
+      >
+        <div
+          className="story-col"
+        >
+          <img
+            alt="story of anharsiharamtea"
+            src="https://picsum.photos/seed/picsum/100/100"
+          />
+        </div>
+        <div
+          className="story-col"
+        >
+          anharsiharamtea
+        </div>
+      </div>
+      <div
+        className="story-item"
+      >
+        <div
+          className="story-col"
+        >
+          <img
+            alt="story of anharsiharamtea"
+            src="https://picsum.photos/seed/picsum/100/100"
+          />
+        </div>
+        <div
+          className="story-col"
+        >
+          anharsiharamtea
+        </div>
+      </div>
+      <div
+        className="story-item"
+      >
+        <div
+          className="story-col"
+        >
+          <img
+            alt="story of anharsiharamtea"
+            src="https://picsum.photos/seed/picsum/100/100"
+          />
+        </div>
+        <div
+          className="story-col"
+        >
+          anharsiharamtea
+        </div>
+      </div>
     </div>
   </div>
 </div>
