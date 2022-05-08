@@ -60,13 +60,15 @@ const Reels: FC<IProps> = () => {
           className="reels-item"
           style={{ height: reelVideoHeight }}
         >
-          <ReactPlayer
-            width="100%"
-            height="100%"
-            url={item.src}
-            playing={item.play}
-            loop
-          />
+          <div>
+            <ReactPlayer
+              width="100%"
+              height="100%"
+              url={item.src}
+              playing={item.play}
+              loop
+            />
+          </div>
         </div>
       ))}
     </div>

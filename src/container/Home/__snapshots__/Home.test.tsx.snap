@@ -55,6 +55,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
       >
         <div
           className="story-item"
+          onClick={[Function]}
         >
           <div
             className="story-col"
@@ -77,6 +78,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
         </div>
         <div
           className="story-item"
+          onClick={[Function]}
         >
           <div
             className="story-col"
@@ -99,6 +101,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
         </div>
         <div
           className="story-item"
+          onClick={[Function]}
         >
           <div
             className="story-col"
@@ -121,6 +124,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
         </div>
         <div
           className="story-item"
+          onClick={[Function]}
         >
           <div
             className="story-col"
@@ -143,6 +147,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
         </div>
         <div
           className="story-item"
+          onClick={[Function]}
         >
           <div
             className="story-col"
@@ -165,6 +170,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
         </div>
         <div
           className="story-item"
+          onClick={[Function]}
         >
           <div
             className="story-col"
@@ -187,6 +193,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
         </div>
         <div
           className="story-item"
+          onClick={[Function]}
         >
           <div
             className="story-col"
