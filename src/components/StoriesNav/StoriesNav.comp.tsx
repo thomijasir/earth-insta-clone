@@ -14,7 +14,7 @@ const StoriesNav: FC<IStoriesNavProps> = () => {
     {
       id: 1,
       url: `https://picsum.photos/id/${randomMize()}/100/100`,
-      username: 'thomijasir',
+      username: 'Your story',
       active: false,
     },
     {
