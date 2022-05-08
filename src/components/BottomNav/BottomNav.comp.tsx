@@ -11,7 +11,6 @@ export const BottomNavDefaultProps = {};
 export const BottomNavNamespace = 'BottomNav';
 
 const BottomNav: FC<IBottomNavProps> = () => {
-  console.log('Bottom Nan rebder');
   return (
     <div className="bottom-nav-comp">
       <div className="col-bottom-nav">

@@ -1,19 +1,20 @@
 import React, { FC } from 'react';
 import './TemplateComp.scss';
 
-export type ITemplateCompProps = {
-  title: string;
-};
+export type ITemplateCompProps = {};
 
-export const TemplateCompDefaultProps = {
-  title: 'Component',
-};
+export const TemplateCompDefaultProps = {};
 
 export const TemplateCompNamespace = 'TemplateComp';
 
-const TemplateComp: FC<ITemplateCompProps> = ({ title }) => (
-  <div className="template-comp">{title}</div>
-);
+const TemplateComp: FC<ITemplateCompProps> = () => {
+  // Component TemplateComp
+  return (
+    <div className="template-comp">
+      <div className="comp">Area Component</div>
+    </div>
+  );
+};
 
 TemplateComp.displayName = TemplateCompNamespace;
 TemplateComp.defaultProps = TemplateCompDefaultProps;

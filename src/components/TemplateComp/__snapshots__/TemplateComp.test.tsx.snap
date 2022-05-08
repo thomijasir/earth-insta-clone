@@ -4,6 +4,10 @@ exports[`Loading General Component Snap Test render() renders the component 1`] 
 <div
   className="template-comp"
 >
-  Component
+  <div
+    className="comp"
+  >
+    Area Component
+  </div>
 </div>
 `;

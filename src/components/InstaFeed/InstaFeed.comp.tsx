@@ -85,7 +85,7 @@ const InstaFeed: FC<IInstaFeedProps> = () => {
     const collection = [];
     for (let t = 0; t < 25; t += 1) {
       collection.push(
-        <div className="feed-item">
+        <div key={`key-${t}`} className="feed-item">
           {memoizeFeedHead}
           {memoizeFeedContent(randomMize())}
           {memoizeFeedActions}
