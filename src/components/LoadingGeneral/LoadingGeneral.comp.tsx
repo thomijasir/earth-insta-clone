@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
-import LOADING_SPINNER from '../../assets/images/react.svg';
+import INSTA_LOGO from '../../assets/icons/instagram-logo.jpg';
+import META_LOGO from '../../assets/icons/instagram-logo-bottom.jpg';
 import './LoadingGeneral.scss';
 
 export type ILoadingGeneralProps = {
@@ -16,10 +17,12 @@ export const loadingGeneralNamespace = 'LoadingGeneral';
 
 const LoadingGeneral: FC<ILoadingGeneralProps> = ({ isLoading, text }) => (
   <div className={`loading-mask ${isLoading ? 'on' : ''}`}>
-    <div className="spinner">
-      <img className="rotate" src={LOADING_SPINNER} alt="loading" />
+    <div className="insta-logo">
+      <img className="logo" src={INSTA_LOGO} alt="loading" />
     </div>
-    <div className="loading-text">{text}</div>
+    <div className="meta-logo">
+      <img src={META_LOGO} alt="loading" />
+    </div>
   </div>
 );
 

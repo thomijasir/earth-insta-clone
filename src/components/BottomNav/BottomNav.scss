@@ -1,0 +1,26 @@
+@import '../../assets/style/colors';
+@import '../../assets//style/var';
+.bottom-nav-comp {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 16px 0 28px 0;
+  background-color: #fff;
+  .col-bottom-nav {
+    img {
+      width: 30px;
+      height: 30px;
+    }
+    &:last-child {
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid gray;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

@@ -6,6 +6,11 @@ afterEach(() => {
   jest.clearAllMocks();
 });
 
+beforeEach(() => {
+  // MOCK MATH RANDOM
+  jest.spyOn(global.Math, 'random').mockReturnValue(1);
+});
+
 describe('HomePage Container Snap Test', () => {
   describe('render()', () => {
     test('renders the component', () => {

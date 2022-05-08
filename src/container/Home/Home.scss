@@ -1,21 +1,16 @@
 .home-page {
-  h1 {
-    font-family: 'Courier New', Courier, monospace;
-  }
-  line-height: 1.5;
   height: 100vh;
   display: flex;
-  align-items: center;
-  text-align: center;
-  .rotate {
-    animation: rotation 3s infinite linear;
-  }
-  @keyframes rotation {
-    from {
-      transform: rotate(359deg);
-    }
-    to {
-      transform: rotate(0deg);
+  flex-flow: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: space-between;
+  .col-home {
+    &.home-group {
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
   }
 }

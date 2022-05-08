@@ -5,18 +5,21 @@ exports[`Loading General Component Snap Test render() renders the component 1`] 
   className="loading-mask "
 >
   <div
-    className="spinner"
+    className="insta-logo"
   >
     <img
       alt="loading"
-      className="rotate"
-      src="react.svg"
+      className="logo"
+      src="instagram-logo.jpg"
     />
   </div>
   <div
-    className="loading-text"
+    className="meta-logo"
   >
-    Loading..
+    <img
+      alt="loading"
+      src="instagram-logo-bottom.jpg"
+    />
   </div>
 </div>
 `;
