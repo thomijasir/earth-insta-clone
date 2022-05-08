@@ -2821,7 +2821,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
         >
           <img
             alt="bottom-nav"
-            src="find-icon.svg"
+            src="find-icon.jpg"
           />
         </a>
       </div>

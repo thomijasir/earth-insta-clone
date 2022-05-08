@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import HOME_ICON from '../../assets/icons/home-icon.jpg';
-import FIND_ICON from '../../assets/icons/find-icon.svg';
+import FIND_ICON from '../../assets/icons/find-icon.jpg';
 import VIDEO_ICON from '../../assets/icons/video-icon.jpg';
 import './BottomNav.scss';
 

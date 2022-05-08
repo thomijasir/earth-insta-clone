@@ -1,0 +1,17 @@
+@import '../../assets/style/colors';
+@import '../../assets//style/var';
+.insta-grid-comp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  overflow: scroll;
+  .col-grid {
+    flex: 1 1 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+  }
+}
