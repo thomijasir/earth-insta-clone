@@ -5,7 +5,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
   className="home-page"
 >
   <div
-    className="nav-head"
+    className="col-home nav-head"
   >
     <div
       className="head-bar-comp"
@@ -15,7 +15,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
       >
         <img
           alt="Intagram Logo Text"
-          src="instagram-text.jpg"
+          src="instagram-text.svg"
         />
       </div>
       <div
@@ -45,129 +45,2759 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
     </div>
   </div>
   <div
-    className="nav-stories"
+    className="col-home home-group"
   >
     <div
-      className="stories-nav-comp"
+      className="nav-stories"
     >
       <div
-        className="story-item"
+        className="stories-nav-comp"
       >
         <div
-          className="story-col"
+          className="story-item"
         >
-          <img
-            alt="story of thomijasir"
-            src="https://picsum.photos/seed/picsum/100/100"
-          />
+          <div
+            className="story-col"
+          >
+            <div
+              className="wrapper-image-story "
+            >
+              <img
+                alt="story of thomijasir"
+                src="https://picsum.photos/id/53/100/100"
+              />
+            </div>
+          </div>
+          <div
+            className="story-col"
+          >
+            thomijasir
+          </div>
         </div>
         <div
-          className="story-col"
+          className="story-item"
         >
-          thomijasir
+          <div
+            className="story-col"
+          >
+            <div
+              className="wrapper-image-story active"
+            >
+              <img
+                alt="story of galuutama"
+                src="https://picsum.photos/id/19/100/100"
+              />
+            </div>
+          </div>
+          <div
+            className="story-col"
+          >
+            galuutama
+          </div>
+        </div>
+        <div
+          className="story-item"
+        >
+          <div
+            className="story-col"
+          >
+            <div
+              className="wrapper-image-story active"
+            >
+              <img
+                alt="story of susantowijayanto"
+                src="https://picsum.photos/id/86/100/100"
+              />
+            </div>
+          </div>
+          <div
+            className="story-col"
+          >
+            susantowijayanto
+          </div>
+        </div>
+        <div
+          className="story-item"
+        >
+          <div
+            className="story-col"
+          >
+            <div
+              className="wrapper-image-story active"
+            >
+              <img
+                alt="story of larasatibudiono"
+                src="https://picsum.photos/id/56/100/100"
+              />
+            </div>
+          </div>
+          <div
+            className="story-col"
+          >
+            larasatibudiono
+          </div>
+        </div>
+        <div
+          className="story-item"
+        >
+          <div
+            className="story-col"
+          >
+            <div
+              className="wrapper-image-story active"
+            >
+              <img
+                alt="story of anharsiharamtea"
+                src="https://picsum.photos/id/77/100/100"
+              />
+            </div>
+          </div>
+          <div
+            className="story-col"
+          >
+            anharsiharamtea
+          </div>
+        </div>
+        <div
+          className="story-item"
+        >
+          <div
+            className="story-col"
+          >
+            <div
+              className="wrapper-image-story active"
+            >
+              <img
+                alt="story of anharsiharamtea"
+                src="https://picsum.photos/id/84/100/100"
+              />
+            </div>
+          </div>
+          <div
+            className="story-col"
+          >
+            anharsiharamtea
+          </div>
+        </div>
+        <div
+          className="story-item"
+        >
+          <div
+            className="story-col"
+          >
+            <div
+              className="wrapper-image-story active"
+            >
+              <img
+                alt="story of anharsiharamtea"
+                src="https://picsum.photos/id/40/100/100"
+              />
+            </div>
+          </div>
+          <div
+            className="story-col"
+          >
+            anharsiharamtea
+          </div>
         </div>
       </div>
+    </div>
+    <div
+      className="insta-feed"
+    >
       <div
-        className="story-item"
+        className="insta-feed-comp"
       >
         <div
-          className="story-col"
+          className="feed-item"
         >
-          <img
-            alt="story of galuutama"
-            src="https://picsum.photos/seed/picsum/100/100"
-          />
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/30/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
         </div>
         <div
-          className="story-col"
+          className="feed-item"
         >
-          galuutama
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/46/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/26/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/99/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/62/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/54/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/64/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/8/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/37/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/78/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/85/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/20/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/1/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/73/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/99/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/57/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/72/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/17/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/23/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/29/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/21/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/60/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/56/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/4/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
+        </div>
+        <div
+          className="feed-item"
+        >
+          <div
+            className="feed-head"
+          >
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="Feed head"
+                src="https://picsum.photos/50/50.webp"
+              />
+            </div>
+            <div
+              className="col-feed-head username"
+            >
+              thomijasir
+            </div>
+            <div
+              className="col-feed-head"
+            >
+              <img
+                alt="ICON DOT"
+                src="dot-icon.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="feed-content"
+          >
+            <img
+              alt="Feed head"
+              src="https://picsum.photos/id/77/375/380.webp"
+            />
+          </div>
+          <div
+            className="feed-actions"
+          >
+            <div
+              className="feed-actions-icons"
+            >
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="heart icon"
+                  src="heart-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="comment icon"
+                  src="comment-icon.svg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="send icon"
+                  src="send-icon.jpg"
+                />
+              </div>
+              <div
+                className="col-action"
+              >
+                <img
+                  alt="bookmark icon"
+                  src="bookmark-icon.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="feed-attractions"
+            >
+              <b>
+                10.000
+              </b>
+               likes
+            </div>
+          </div>
+          <div
+            className="feed-comments"
+          >
+            <div
+              className="summary-comment"
+            >
+              <b>
+                thomijasir
+              </b>
+               Webkit browsers, such as Chrome, Safari and Opera, supports the non-standard ::-webkit-scrollbar pseudo element, which allows us to modify the look of the browser scrollbar.
+            </div>
+            <div
+              className="view-comment"
+            >
+              View all 125 comments
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div
+    className="col-home nav-bottom"
+  >
+    <div
+      className="bottom-nav-comp"
+    >
       <div
-        className="story-item"
+        className="col-bottom-nav"
       >
-        <div
-          className="story-col"
-        >
-          <img
-            alt="story of susantowijayanto"
-            src="https://picsum.photos/seed/picsum/100/100"
-          />
-        </div>
-        <div
-          className="story-col"
-        >
-          susantowijayanto
-        </div>
+        <img
+          alt="bottom-nav"
+          src="home-icon.jpg"
+        />
       </div>
       <div
-        className="story-item"
+        className="col-bottom-nav"
       >
-        <div
-          className="story-col"
-        >
-          <img
-            alt="story of larasatibudiono"
-            src="https://picsum.photos/seed/picsum/100/100"
-          />
-        </div>
-        <div
-          className="story-col"
-        >
-          larasatibudiono
-        </div>
+        <img
+          alt="bottom-nav"
+          src="find-icon.svg"
+        />
       </div>
       <div
-        className="story-item"
+        className="col-bottom-nav"
       >
-        <div
-          className="story-col"
-        >
-          <img
-            alt="story of anharsiharamtea"
-            src="https://picsum.photos/seed/picsum/100/100"
-          />
-        </div>
-        <div
-          className="story-col"
-        >
-          anharsiharamtea
-        </div>
+        <img
+          alt="bottom-nav"
+          src="video-icon.jpg"
+        />
       </div>
       <div
-        className="story-item"
+        className="col-bottom-nav"
       >
-        <div
-          className="story-col"
-        >
-          <img
-            alt="story of anharsiharamtea"
-            src="https://picsum.photos/seed/picsum/100/100"
-          />
-        </div>
-        <div
-          className="story-col"
-        >
-          anharsiharamtea
-        </div>
-      </div>
-      <div
-        className="story-item"
-      >
-        <div
-          className="story-col"
-        >
-          <img
-            alt="story of anharsiharamtea"
-            src="https://picsum.photos/seed/picsum/100/100"
-          />
-        </div>
-        <div
-          className="story-col"
-        >
-          anharsiharamtea
-        </div>
+        <img
+          alt="bottom-nav"
+          src="https://picsum.photos/50/50.webp"
+        />
       </div>
     </div>
   </div>

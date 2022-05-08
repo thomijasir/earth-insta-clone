@@ -1,7 +1,16 @@
 .home-page {
   height: 100vh;
-  padding-top: 55px;
-  padding-bottom: 50px;
+  display: flex;
+  flex-flow: column;
   box-sizing: border-box;
-
+  overflow: hidden;
+  justify-content: space-between;
+  .col-home {
+    &.home-group {
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
 }

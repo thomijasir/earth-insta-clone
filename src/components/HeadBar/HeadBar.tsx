@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import INSTA_LOGO_TEXT from '../../assets/icons/instagram-text.jpg';
+import INSTA_LOGO_TEXT from '../../assets/icons/instagram-text.svg';
 import PLUS_ICON from '../../assets/icons/plus-icon.jpg';
 import COMMENT_ICON from '../../assets/icons/comment-icon.jpg';
 import HEART_ICON from '../../assets/icons/heart-icon.jpg';
