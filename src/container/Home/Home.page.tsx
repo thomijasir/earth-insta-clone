@@ -1,37 +1,41 @@
-import React, { FC, useState, useEffect, useContext } from 'react';
-import { AppContext } from '../../store/AppProvider';
-import { TITLE_HOME_PAGE } from '../../constants';
+import React, { FC, useMemo } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import BottomNav from '../../components/BottomNav/BottomNav.comp';
 import HeadBar from '../../components/HeadBar/HeadBar';
 import StoriesNavComp from '../../components/StoriesNav/StoriesNav.comp';
 import InstaFeedComp from '../../components/InstaFeed/InstaFeed.comp';
-
 import './Home.scss';
 
 export interface IProps {}
 
 const Home: FC<IProps> = () => {
-  const context = useContext(AppContext);
-  const [title] = useState('React Boilerplate');
+  const loc = useLocation();
+  const isHome = loc.pathname === '/';
 
-  useEffect(() => {
-    console.log(TITLE_HOME_PAGE);
-    console.log('HOME CONTEXT: ', context);
-  }, []);
+  const contentRender = useMemo(() => {
+    if (isHome) {
+      return (
+        <>
+          <div className="col-home nav-head">
+            <HeadBar />
+          </div>
+          <div className="col-home home-group">
+            <div className="nav-stories">
+              <StoriesNavComp />
+            </div>
+            <div className="insta-feed">
+              <InstaFeedComp />
+            </div>
+          </div>
+        </>
+      );
+    }
+    return <Outlet />;
+  }, [loc]);
 
   return (
     <div className="home-page">
-      <div className="col-home nav-head">
-        <HeadBar />
-      </div>
-      <div className="col-home home-group">
-        <div className="nav-stories">
-          <StoriesNavComp />
-        </div>
-        <div className="insta-feed">
-          <InstaFeedComp />
-        </div>
-      </div>
+      {contentRender}
       <div className="col-home nav-bottom">
         <BottomNav />
       </div>
