@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useId } from 'react';
+import React, { FC, useCallback, useId, useTransition } from 'react';
 import FIND_ICON from '../../assets/icons/find-icon.png';
 import './InstaSearch.scss';
 
@@ -10,9 +10,12 @@ export const InstaSearchNamespace = 'InstaSearch';
 
 const InstaSearch: FC<IInstaSearchProps> = () => {
   // Component InstaSearch
+  const [isPendingSearch, concurenShearch] = useTransition();
   const gId = useId();
   const handleOnChange = useCallback(() => {
-    console.log('GET ON SEARCH');
+    concurenShearch(() => {
+      // TODO: Doing something when search
+    });
   }, []);
   return (
     <div className="insta-search-comp">
