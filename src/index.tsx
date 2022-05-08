@@ -1,8 +1,7 @@
 // import 'react-app-polyfill/stable';
 import React, { FC, useContext, useMemo, useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import APP_ROUTER, { IRoute } from './services/Router';
+import Router from './services/Router';
 import ClearCache from './ClearCache';
 import AppProvider, { AppContext } from './store/AppProvider';
 import LoadingGeneral from './components/LoadingGeneral/LoadingGeneral.comp';
@@ -18,25 +17,13 @@ const App: FC = () => {
     // * IT WILL USE IF APP REQUIRED FETCH DATA BEFORE RENDER CONTAINER
     // ? FOR SOME CASE THAT APP NEED TOKEN BEFORE RENDER
     setTimeout(() => {
+      // MIMICKING ANIMATION INSTAGRAM
       context.setLoading(false, '');
     }, 1000);
   }, []);
 
   // * MEMOIZE ROUTER CAN HELP INCREASE INDEX PERFORMANCE APP
-  const renderRouter = useMemo(
-    () =>
-      appReady && (
-        <BrowserRouter>
-          <Routes>
-            {APP_ROUTER.map((item: IRoute) => (
-              <Route {...item} element={<item.element />} />
-            ))}
-            <Route path="*" element={<p>404 Page</p>} />
-          </Routes>
-        </BrowserRouter>
-      ),
-    [appReady],
-  );
+  const renderRouter = useMemo(() => appReady && <Router />, [appReady]);
 
   return (
     <>

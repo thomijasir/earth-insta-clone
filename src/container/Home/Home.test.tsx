@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import render from 'react-test-renderer';
 import Home from './Home.page';
 
@@ -14,7 +15,11 @@ beforeEach(() => {
 describe('HomePage Container Snap Test', () => {
   describe('render()', () => {
     test('renders the component', () => {
-      const wrapper = render.create(<Home />);
+      const wrapper = render.create(
+        <BrowserRouter>
+          <Home />
+        </BrowserRouter>,
+      );
       expect(wrapper.toJSON()).toMatchSnapshot();
     });
   });

@@ -54,6 +54,7 @@ const StoriesNav: FC<IStoriesNavProps> = () => {
       active: true,
     },
   ];
+
   return (
     <div className="stories-nav-comp">
       {listStory.map((data: any) => (
@@ -62,7 +63,14 @@ const StoriesNav: FC<IStoriesNavProps> = () => {
             <div
               className={`wrapper-image-story ${data.active ? 'active' : ''}`}
             >
-              <img src={data.url} alt={`story of ${data.username}`} />
+              <img
+                src={data.url}
+                alt={`story of ${data.username}`}
+                onError={(e: any) => {
+                  // Image Fallback
+                  e.target.src = 'https://picsum.photos/id/10/100/100';
+                }}
+              />
             </div>
           </div>
           <div className="story-col">{data.username}</div>

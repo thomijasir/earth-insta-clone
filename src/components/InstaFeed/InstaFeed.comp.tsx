@@ -36,6 +36,10 @@ const InstaFeed: FC<IInstaFeedProps> = () => {
         <img
           src={`https://picsum.photos/id/${randomImageId}/375/380.webp`}
           alt="Feed head"
+          onError={(e: any) => {
+            // Image Fallback
+            e.target.src = 'https://picsum.photos/id/10/375/380.webp';
+          }}
         />
       </div>
     ),

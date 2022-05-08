@@ -9,10 +9,7 @@ afterEach(() => {
 describe('Loading General Component Snap Test', () => {
   describe('render()', () => {
     test('renders the component', () => {
-      const compProps = {
-        title: 'Component',
-      };
-      const wrapper = render.create(<TemplateComp {...compProps} />);
+      const wrapper = render.create(<TemplateComp />);
       expect(wrapper.toJSON()).toMatchSnapshot();
     });
   });
