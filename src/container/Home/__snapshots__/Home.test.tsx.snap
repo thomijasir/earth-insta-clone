@@ -63,7 +63,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
               className="wrapper-image-story "
             >
               <img
-                alt="story of thomijasir"
+                alt="story of Your story"
                 onError={[Function]}
                 src="https://picsum.photos/id/100/100/100"
               />
@@ -72,7 +72,7 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
           <div
             className="story-col"
           >
-            thomijasir
+            Your story
           </div>
         </div>
         <div
