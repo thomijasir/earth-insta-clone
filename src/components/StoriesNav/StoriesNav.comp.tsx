@@ -82,7 +82,6 @@ const StoriesNav: FC<IStoriesNavProps> = () => {
             stories={[
               { url: `https://picsum.photos/id/${randomMize()}/450/800` },
               { url: `https://picsum.photos/id/${randomMize()}/450/800` },
-              { url: '/resources/reels/thomi-dancing.mp4', type: 'video' },
             ]}
             defaultInterval={4000}
             width={window.innerWidth}

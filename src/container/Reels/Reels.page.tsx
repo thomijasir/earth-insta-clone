@@ -5,7 +5,7 @@ import './Reels.scss';
 export interface IProps {}
 
 const Reels: FC<IProps> = () => {
-  const reelVideoHeight = window.innerHeight - 67;
+  const reelVideoHeight = window.innerHeight;
   const [reelsPending, reelsTransition] = useTransition();
   const [reels, setReels] = useState([
     {
@@ -21,11 +21,6 @@ const Reels: FC<IProps> = () => {
     {
       id: 3,
       src: '/resources/reels/biggest-tides.mp4',
-      play: false,
-    },
-    {
-      id: 4,
-      src: '/resources/reels/thomi-dancing.mp4',
       play: false,
     },
   ]);
@@ -60,15 +55,14 @@ const Reels: FC<IProps> = () => {
           className="reels-item"
           style={{ height: reelVideoHeight }}
         >
-          <div>
-            <ReactPlayer
-              width="100%"
-              height="100%"
-              url={item.src}
-              playing={item.play}
-              loop
-            />
-          </div>
+          <ReactPlayer
+            width="100%"
+            height="inherit"
+            url={item.src}
+            playing={item.play}
+            loop
+            playsinline
+          />
         </div>
       ))}
     </div>
