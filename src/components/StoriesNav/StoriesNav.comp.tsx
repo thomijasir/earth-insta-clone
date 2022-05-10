@@ -59,7 +59,7 @@ const StoriesNav: FC<IStoriesNavProps> = () => {
     [],
   );
 
-  const handleOpenStory = (storyId: number) => () => {
+  const handleOpenStory = () => () => {
     document.head
       .querySelector('[name="theme-color"]')
       ?.setAttribute('content', 'rgb(17, 17, 17)');
@@ -82,7 +82,6 @@ const StoriesNav: FC<IStoriesNavProps> = () => {
             stories={[
               { url: `https://picsum.photos/id/${randomMize()}/450/800` },
               { url: `https://picsum.photos/id/${randomMize()}/450/800` },
-              { url: '/resources/reels/thomi-dancing.mp4', type: 'video' },
             ]}
             defaultInterval={4000}
             width={window.innerWidth}
@@ -91,11 +90,7 @@ const StoriesNav: FC<IStoriesNavProps> = () => {
         </div>
       )}
       {listStory.map((data: any) => (
-        <div
-          className="story-item"
-          key={data.id}
-          onClick={handleOpenStory(data.id)}
-        >
+        <div className="story-item" key={data.id} onClick={handleOpenStory()}>
           <div className="story-col">
             <div
               className={`wrapper-image-story ${data.active ? 'active' : ''}`}
