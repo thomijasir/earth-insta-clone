@@ -5,7 +5,6 @@ import './LoadingGeneral.scss';
 
 export type ILoadingGeneralProps = {
   isLoading: boolean;
-  text?: string;
 };
 
 export const loadingGeneralDefaultProps = {
@@ -15,7 +14,7 @@ export const loadingGeneralDefaultProps = {
 
 export const loadingGeneralNamespace = 'LoadingGeneral';
 
-const LoadingGeneral: FC<ILoadingGeneralProps> = ({ isLoading, text }) => (
+const LoadingGeneral: FC<ILoadingGeneralProps> = ({ isLoading }) => (
   <div className={`loading-mask ${isLoading ? 'on' : ''}`}>
     <div className="insta-logo">
       <img className="logo" src={INSTA_LOGO} alt="loading" />

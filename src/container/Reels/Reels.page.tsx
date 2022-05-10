@@ -6,7 +6,7 @@ export interface IProps {}
 
 const Reels: FC<IProps> = () => {
   const reelVideoHeight = window.innerHeight;
-  const [reelsPending, reelsTransition] = useTransition();
+  const [, reelsTransition] = useTransition();
   const [reels, setReels] = useState([
     {
       id: 1,

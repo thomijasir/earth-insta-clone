@@ -10,7 +10,7 @@ export const InstaSearchNamespace = 'InstaSearch';
 
 const InstaSearch: FC<IInstaSearchProps> = () => {
   // Component InstaSearch
-  const [isPendingSearch, concurenShearch] = useTransition();
+  const [, concurenShearch] = useTransition();
   const gId = useId();
   const handleOnChange = useCallback(() => {
     concurenShearch(() => {
