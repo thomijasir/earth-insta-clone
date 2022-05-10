@@ -16,10 +16,19 @@ const App: FC = () => {
   React.useEffect(() => {
     // * IT WILL USE IF APP REQUIRED FETCH DATA BEFORE RENDER CONTAINER
     // ? FOR SOME CASE THAT APP NEED TOKEN BEFORE RENDER
-    setTimeout(() => {
-      // MIMICKING ANIMATION INSTAGRAM
+    if (window.innerWidth >= 400) {
       context.setLoading(false, '');
-    }, 1000);
+      context.setError(
+        true,
+        "Opps, screen doesn't support",
+        'Please resize the screen under 400 pixel or open in small device.',
+      );
+    } else {
+      setTimeout(() => {
+        // MIMICKING ANIMATION INSTAGRAM
+        context.setLoading(false, '');
+      }, 1000);
+    }
   }, []);
 
   // * MEMOIZE ROUTER CAN HELP INCREASE INDEX PERFORMANCE APP
