@@ -17,5 +17,5 @@ just pull this project run the react, and required **node 16.13**.
 *don't heistate if to reach me if you have any idea to improve this boilerplate... ☕️*
 
 <p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/8123499/165881055-7f983137-a796-4d67-85b7-25daee341ad2.gif">
+  <img width="360" src="https://github.com/thomijasir/earth-insta-clone/blob/main/video/insta-story-react.gif">
 </p>
